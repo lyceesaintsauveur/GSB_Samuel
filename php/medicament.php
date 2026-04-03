@@ -4,7 +4,7 @@
  * Objectif : Afficher les caractéristiques d'un médicament sélectionné.
  */
 
-// 1. Connexion à la base de donnée
+// 1. Connexion à la base de données
 try {
     // Connexion via PDO (PHP Data Objects) pour la sécurité et la flexibilité
     $bdd = new PDO('mysql:host=localhost;dbname=gsbsamuel;charset=utf8', 'root', '');
