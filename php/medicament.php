@@ -13,7 +13,7 @@ try {
     die('Erreur : ' . $e->getMessage());
 }
 
-// 2. Récupération de la liste pour le menu déroulant
+// 2. Récupération de la liste pour le menu déroulant déroulant
 // On ne récupère que l'ID (DEPOTLEGAL) et le Nom pour optimiser la mémoire
 $reqListe = $bdd->query("SELECT MED_DEPOTLEGAL, MED_NOMCOMMERCIAL FROM medicament ORDER BY MED_NOMCOMMERCIAL");
 $medicaments = $reqListe->fetchAll();
